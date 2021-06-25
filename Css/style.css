@@ -1,185 +1,327 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.details{
-    border-radius: 35px;
-    border: rgba(0, 0, 0, 0) solid 2px;
-    position: relative;
-    bottom: 35px;
-    background-color: white;
+body {
+  font-family: "Abel";
+}
+
+.details {
+  border-radius: 35px;
+  border: rgba(0, 0, 0, 0) solid 2px;
+  position: relative;
+  bottom: 35px;
+  background-color: white;
 }
 
 .header {
-    height: 350px;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-    display: flex;
-    flex-direction: column;
-    background-color: #ffa451;
+  height: 350px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffa451;
 }
 
 .back {
-    font-family: "brandon grotesque", sans-serif;
-    margin-top: 64px;
-    margin-left: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 2px;
-    width: 80px;
-    height: 32px;
-    background-color: #FFF;
-    border-radius: 100px;
+  font-family: "Abel";
+  margin-top: 64px;
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2px;
+  width: 80px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
 }
 
-.frtimg{
-    display: flex;
-    margin-top: 10px;
-    margin-bottom: 32px;
-    align-self: center;
+.frtimg {
+  margin-top: 10px;
+  margin-bottom: 32px;
+  align-self: center;
 }
 
-.frtimg1{
-    width: 176px;
-    height: 176px;
+.frtimg1 {
+  width: 176px;
+  height: 176px;
 }
 
-.title{
-    display: flex;
-    flex-direction: column;
-    height: 32px;
-    font-size: 32px;
-    margin-top: 37px;
-    margin-left: 25px;
-    margin-bottom: 36px;
+.title {
+  font-family: "Abel";
+  height: 32px;
+  font-size: 32px;
+  margin-top: 37px;
+  margin-left: 25px;
+  margin-bottom: 36px;
 }
 
-.quantity{
-    height: 50px;
-    margin-left: 0px;
-    margin-bottom: 64px;
-    width: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+.quantity {
+  height: 50px;
+  margin-left: 24px;
+  margin-bottom: 64px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .minus {
-    width: 32px;
-    height: 32px;
-    border-radius: 100%;
-    border: rgb(0, 0, 0) solid 1px;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  border: rgb(0, 0, 0) solid 1px;
+  cursor: pointer;
 }
 .plus {
-    width: 32px;
-    height: 32px;
-    border-radius: 100%;
-    background-color: #fff2e7;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background-color: #fff2e7;
+  border: none;
+  cursor: pointer;
 }
 
-
-
-.max{
-    margin: 8px 8px 8px 8px;
-    width: 16px;
-    height: 16px;
+.max {
+  margin: 8px 8px 8px 8px;
+  width: 16px;
+  height: 16px;
 }
 
-.min{
-    margin: 13px auto 20px auto ;
-    width: 16px;
-    border: black solid 2px;
+.min {
+  margin: 13px auto 20px auto;
+  width: 16px;
+  border: black solid 2px;
 }
 
-.currency{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.currency {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.cost{
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    margin-right: 34px;
-    margin-top: 20px;
+.cost {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-right: 34px;
+  margin-top: 20px;
 }
 
-.N{
-    width: 20px;
-    height: 16px;
+.N {
+  width: 20px;
+  height: 16px;
 }
 
-.tit{
-    text-align: center;
-    margin-left: 29px;
-    margin-bottom: 20px;
-    padding-top: 10px;
-    width: 144px;
-    height: 32px;
-    border-bottom: #ffa451 solid 2px;
+.tit {
+  text-align: center;
+  margin-left: 29px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  width: 144px;
+  height: 32px;
+  border-bottom: #ffa451 solid 2px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .des {
-    margin-left: 24px;
-    margin-bottom: 44px;
-    width: 326px;
-}
-
-.bottom {
-    display: flex;
-    flex-direction: column;
+  margin-left: 24px;
+  margin-bottom: 44px;
+  width: 90%;
 }
 
 .conc {
-    margin-left: 24px;
-    width: 284px;
-    margin-bottom: 39px;
+  margin-left: 24px;
+  width: 75%;
+  margin-bottom: 39px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .final {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 10px;
 }
 
-.heart{
-    width: 32px;
-    height: 32px;
-    background-color: #fff2e7;
-    border-radius: 100%;
+.heart {
+  width: 32px;
+  height: 32px;
+  background-color: #fff2e7;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
 }
 
 .hrt {
-    margin: 8px 8px 8px 8px;
+  margin: 10px 8px 8px 8px;
 }
 
-.addbtn{
-    color: white;
-    background-color: #ffa451;
-    width: 219px;
-    height: 56px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 14px;
-    border-radius: 10px;
+.addbtn {
+  color: white;
+  background-color: #ffa451;
+  width: 219px;
+  height: 56px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: "Abel";
+  font-size: 17px;
 }
 
-.descreption{
-    margin-top: 120px;
+.descreption {
+  margin-top: 56px;
 }
 
-.tho{
+.tho {
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.back1 {
+  margin-right: 5px;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.vector1 {
+  height: 21px;
+  margin-left: 4px;
+}
+
+.num {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 50px;
+  }
+
+  .cost {
+    margin-top: 75px;
+  }
+
+  .quantity {
+    width: 150px;
+  }
+
+  .tho {
+    font-size: 30px;
+  }
+
+  .N {
+    width: 25px;
+    height: 20px;
+  }
+
+  .minus {
+    width: 50px;
+    height: 50px;
+  }
+
+  .plus {
+    width: 50px;
+    height: 50px;
+  }
+
+  .min {
+    margin: 20px auto 20px auto;
+    width: 25px;
+  }
+
+  .max {
+    margin: 10px 10px 10px 10px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .num{
+      font-size: 30px;
+  }
+
+  .tit{
     font-size: 25px;
-    margin-left: 5px;
+    width: 200px;
+    padding-top: 0px;
+  }
+  
+  .des{
+    margin-bottom: 35px;
+    font-size: 20px;
+  }
+
+  .back{
+    width: 100px;
+    height: 50px;
+  }
+
+  .back1{
+      font-size: 20px;
+  }
+
+  .heart{
+    width: 50px;
+    height: 50px;
+  }
+
+  .hrt{
+    margin: 15px 8px 8px 8px;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+    .addbtn{
+        width: 258px;
+        height: 75px;
+        font-size: 24px;
+    }
+
+    .conc{
+        font-size: 20px;
+    }
+
+    .details{
+        bottom: 25px;
+    }
+
+    .title{
+        margin-top: 20px;
+        margin-bottom: 0px;
+        height: 56px;
+    }
+
+    .descreption{
+        margin-top: 40px;
+    }
+
+    .cost{
+        margin-top: 30px;
+    }
+
+    .des{
+        font-size: 25px;
+    }
+    
+    .tit{
+        font-size: 30px;
+        width: 30%;
+        padding-bottom: 50px;
+    }
 }

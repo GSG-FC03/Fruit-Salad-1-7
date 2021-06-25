@@ -6,16 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="body">
       <section class="header">
-        <div class="back">
+        <button class="back" type="button">
           <div class="vector1">
             <img src="./Images/Vector.png" alt="" />
           </div>
           <div class="back1">Go Back</div>
-        </div>
+        </button>
         <div class="frtimg">
           <img
             class="frtimg1"
@@ -27,21 +39,20 @@
       <section class="details">
         <div class="title">
           <p>Quinoa Fruit Salad</p>
-          <div class="quantitiy"></div>
-          <div class="cost">
-            <div class="quantity">
-              <div class="minus">
-                  <div class="min"></div>
-              </div>
-              <p class="num">1</p>
-              <div class="plus">
-                <img class="max" src="./Images/1-Vector.png" alt="">
-              </div>
-            </div>
-            <div class="currency">
-              <img class="N" src="./images/Vector (1).png" alt="" />
+        </div>
+        <div class="cost">
+          <div class="quantity">
+            <button class="minus" type="button">
+              <div class="min"></div>
+            </button>
+            <p class="num">1</p>
+            <button class="plus" type="button">
+              <img class="max" src="./Images/1-Vector.png" alt="" />
+            </button>
+          </div>
+          <div class="currency">
+            <img class="N" src="./images/Vector (1).png" alt="" />
             <p class="tho">2,000</p>
-            </div>
           </div>
         </div>
         <div class="descreption">
@@ -57,12 +68,14 @@
             perfect brunch for you. make
           </p>
           <div class="final">
-            <div class="heart">
+            <button class="heart" type="button">
               <img class="hrt" src="./Images/Vector (Stroke).png" alt="" />
-            </div>
-            <div class="addbtn">
-              <p>Add to basket</p>
-            </div>
+            </button>
+            <button class="addbtn" type="button">
+              <div>
+                <p>Add to basket</p>
+              </div>
+            </button>
           </div>
         </div>
       </section>
