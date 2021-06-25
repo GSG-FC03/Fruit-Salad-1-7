@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +30,7 @@
   section.content {
     font-family: "Amiko", sans-serif;
     width: 327px;
-    height: 209px;
+    height: 200px;
     padding: 46px 24px 88px 24px;
     padding-top: 46px;
     border-radius: 0px 0px 32px 32px;
@@ -59,10 +57,11 @@
     text-align: center;
   }
   .button {
-    padding: 19px 24px 80px 8px;
+    padding: 19px 24px 80px 24px;
+
   }
-  .btn-continue {
-    width: 320px;
+ .btn-continue {
+    width: 295px;
     height: 56px;
     background-color: #ffa451;
     font-size: 20px;
@@ -71,5 +70,74 @@
     color: white;
     border: none;
     cursor: pointer;
+
   }
-  
+
+
+  @media only screen and (min-width: 768px){
+    header {
+        width: 100%;
+        height: 589px;
+        border-radius: 0px;
+    }
+    section.content{
+        width: 627px;
+        height: 200px;
+    }
+    .text {
+        width: 630px;
+        height: 240px;
+    }
+ 
+    .image-fruit {
+        width: 65%;
+        height: 70%;
+      }
+      .ellipse {
+        width: 70%;
+  }
+
+  .heading {
+    font-size: 50px;
+}
+.para{
+    font-size: 33px;
+}
+
+.btn-continue {
+    width: 100%;
+    height: 76px;
+    font-size: 30px;
+}
+
+}
+  @media only screen and (min-width: 1024px){
+    header {
+        height: 100%;
+    }
+    .text {
+        width: 100%;
+        height: 100%;
+    }
+ 
+    .image-fruit {
+        width: 60%;
+      }
+      .ellipse {
+        width: 80%;}
+
+        section.content {
+            width: 746px;
+            height: 260px;
+        }
+        .para{
+     width: 80%;
+     padding: 25px 5px 31px 35px;
+}
+.heading {
+    font-size: 60px;
+    padding-right: 100px;
+}
+.btn-continue {
+    font-size: 38px;
+  }
