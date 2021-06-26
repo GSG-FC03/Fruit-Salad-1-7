@@ -16,7 +16,7 @@ body {
   background-color: white;
 }
 
-.header {
+.navigation-bar {
   height: 350px;
   border-top-left-radius: 35px;
   border-top-right-radius: 35px;
@@ -25,7 +25,7 @@ body {
   background-color: #ffa451;
 }
 
-.back {
+.back-button {
   font-family: "Abel";
   margin-top: 64px;
   margin-left: 24px;
@@ -42,17 +42,12 @@ body {
 }
 
 .frtimg {
-  margin-top: 10px;
+  margin-top: 12px;
   margin-bottom: 32px;
   align-self: center;
 }
 
-.frtimg1 {
-  width: 176px;
-  height: 176px;
-}
-
-.title {
+.salad-name {
   font-family: "Abel";
   height: 32px;
   font-size: 32px;
@@ -72,14 +67,15 @@ body {
   justify-content: space-between;
 }
 
-.minus {
+.remove-item {
   width: 32px;
   height: 32px;
   border-radius: 100%;
   border: rgb(0, 0, 0) solid 1px;
   cursor: pointer;
 }
-.plus {
+
+.add-item {
   width: 32px;
   height: 32px;
   border-radius: 100%;
@@ -88,13 +84,13 @@ body {
   cursor: pointer;
 }
 
-.max {
+.plus {
   margin: 8px 8px 8px 8px;
   width: 16px;
   height: 16px;
 }
 
-.min {
+.minus {
   margin: 13px auto 20px auto;
   width: 16px;
   border: black solid 2px;
@@ -116,12 +112,12 @@ body {
   margin-top: 20px;
 }
 
-.N {
+.currency-img {
   width: 20px;
   height: 16px;
 }
 
-.tit {
+.contents {
   text-align: center;
   margin-left: 29px;
   margin-bottom: 20px;
@@ -133,13 +129,13 @@ body {
   font-weight: bold;
 }
 
-.des {
+.text-description {
   margin-left: 24px;
   margin-bottom: 44px;
   width: 90%;
 }
 
-.conc {
+.footer-text {
   margin-left: 24px;
   width: 75%;
   margin-bottom: 39px;
@@ -147,7 +143,7 @@ body {
   font-weight: bold;
 }
 
-.final {
+.heart-add-to-basket-button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -157,7 +153,7 @@ body {
   margin-bottom: 10px;
 }
 
-.heart {
+.heart-button {
   width: 32px;
   height: 32px;
   background-color: #fff2e7;
@@ -166,7 +162,7 @@ body {
   cursor: pointer;
 }
 
-.hrt {
+.heart {
   margin: 10px 8px 8px 8px;
 }
 
@@ -187,99 +183,87 @@ body {
   margin-top: 56px;
 }
 
-.tho {
+.total-cost {
   font-size: 25px;
   margin-left: 5px;
 }
 
-.back1 {
+.back-text {
   margin-right: 5px;
   margin-top: 0px;
   font-size: 16px;
 }
 
-.vector1 {
+.back-arrow {
   height: 21px;
   margin-left: 4px;
 }
 
-.num {
+.number {
   font-size: 25px;
 }
 
 @media screen and (min-width: 768px) {
-  .title {
+  .navigation-bar {
+    border-radius: 0px;
+  }
+  .salad-name {
     font-size: 50px;
   }
-
   .cost {
     margin-top: 75px;
   }
-
   .quantity {
     width: 150px;
   }
-
-  .tho {
+  .total-cost {
     font-size: 30px;
   }
-
-  .N {
+  .currency-img {
     width: 25px;
     height: 20px;
   }
-
+  .remove-item {
+    width: 50px;
+    height: 50px;
+  }
+  .add-item {
+    width: 50px;
+    height: 50px;
+  }
   .minus {
-    width: 50px;
-    height: 50px;
-  }
-
-  .plus {
-    width: 50px;
-    height: 50px;
-  }
-
-  .min {
     margin: 20px auto 20px auto;
     width: 25px;
   }
-
-  .max {
+  .plus {
     margin: 10px 10px 10px 10px;
     width: 25px;
     height: 25px;
   }
-
-  .num{
-      font-size: 30px;
+  .number {
+    font-size: 30px;
   }
-
-  .tit{
+  .contents {
     font-size: 25px;
     width: 200px;
     padding-top: 0px;
   }
-  
-  .des{
+  .text-description {
     margin-bottom: 35px;
     font-size: 20px;
   }
-
-  .back{
+  .back-button {
     width: 100px;
     height: 50px;
   }
-
-  .back1{
-      font-size: 20px;
+  .back-text {
+    font-size: 20px;
   }
-
-  .heart{
+  .heart-button {
     width: 50px;
     height: 50px;
   }
-
-  .hrt{
+  .heart {
     margin: 15px 8px 8px 8px;
     width: 24px;
     height: 24px;
@@ -287,41 +271,37 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-    .addbtn{
-        width: 258px;
-        height: 75px;
-        font-size: 24px;
-    }
-
-    .conc{
-        font-size: 20px;
-    }
-
-    .details{
-        bottom: 25px;
-    }
-
-    .title{
-        margin-top: 20px;
-        margin-bottom: 0px;
-        height: 56px;
-    }
-
-    .descreption{
-        margin-top: 40px;
-    }
-
-    .cost{
-        margin-top: 30px;
-    }
-
-    .des{
-        font-size: 25px;
-    }
-    
-    .tit{
-        font-size: 30px;
-        width: 30%;
-        padding-bottom: 50px;
-    }
+  .navigation-bar {
+    border-radius: 0px;
+  }
+  .addbtn {
+    width: 258px;
+    height: 75px;
+    font-size: 24px;
+  }
+  .footer-text {
+    font-size: 20px;
+  }
+  .details {
+    bottom: 25px;
+  }
+  .salad-name {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    height: 56px;
+  }
+  .descreption {
+    margin-top: 40px;
+  }
+  .cost {
+    margin-top: 30px;
+  }
+  .text-description {
+    font-size: 25px;
+  }
+  .contents {
+    font-size: 30px;
+    width: 30%;
+    padding-bottom: 50px;
+  }
 }
