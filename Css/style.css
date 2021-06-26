@@ -139,3 +139,7 @@ section.content {
     font-size: 38px;
   }
 }
+
+a{
+  text-decoration: none;
+}
