@@ -4,6 +4,7 @@ Hello and welcome to our project.
 
 ## Links
 [figma design](https://www.figma.com/file/LED6i3mPk6m4sxKyHS6RZC/Fruit-Salad?node-id=12%3A0)
+
 [Demo](https://gsg-fc03.github.io/Fruit-Salad-1-7/)
 
 
